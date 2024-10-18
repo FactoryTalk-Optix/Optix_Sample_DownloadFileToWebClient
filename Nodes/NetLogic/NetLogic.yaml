@@ -1,0 +1,18 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: FilesLister
+  Type: NetLogic
+  Children:
+  - Name: ServerAddress
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "127.0.0.1"
+  - Name: ServerPort
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 8081
+  - Name: BaseDirectory
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "%PROJECTDIR%\\"
